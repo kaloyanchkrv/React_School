@@ -21,7 +21,7 @@ const Header: FC = () => {
           opened={opened}
           onClose={() => setOpened(false)}
         >
-          <Anchor sx={{ textAlign: "center" }} fw={700} href="https://www.wallpaper-it.com/wallpaper/view-all/">
+          <Anchor sx={{ textAlign: "center", color: "black" }} fw={700} href="https://www.wallpaper-it.com/wallpaper/view-all/">
             <Text>NEW YEAR SALE! 20% OFF SELECTED WALLPAPERS !</Text>
           </Anchor>
         </Drawer>
